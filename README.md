@@ -1,0 +1,1 @@
+A composition test for Starthub
