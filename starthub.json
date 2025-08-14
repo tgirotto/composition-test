@@ -3,8 +3,13 @@
     {
       "id": "n_inputs",
       "type": "input",
+      "position": {
+        "x": 80,
+        "y": 100
+      },
       "data": {
         "kind": "input",
+        "label": "Pipeline Inputs",
         "ports": [
           {
             "id": "a",
@@ -25,17 +30,18 @@
             "default": 3
           }
         ]
-      },
-      "position": {
-        "x": 80,
-        "y": 100
       }
     },
     {
       "id": "n_sum",
       "type": "action",
+      "position": {
+        "x": 320,
+        "y": 100
+      },
       "data": {
         "kind": "action",
+        "label": "Add Numbers",
         "stepId": "sum",
         "using": "starthub/add@0.0.1",
         "inPorts": [
@@ -45,17 +51,18 @@
         "outPorts": [
           "result"
         ]
-      },
-      "position": {
-        "x": 320,
-        "y": 100
       }
     },
     {
       "id": "n_product",
       "type": "action",
+      "position": {
+        "x": 560,
+        "y": 100
+      },
       "data": {
         "kind": "action",
+        "label": "Multiply Result",
         "stepId": "product",
         "using": "starthub/multiply@0.0.1",
         "inPorts": [
@@ -65,17 +72,18 @@
         "outPorts": [
           "result"
         ]
-      },
-      "position": {
-        "x": 560,
-        "y": 100
       }
     },
     {
       "id": "n_outputs",
       "type": "output",
+      "position": {
+        "x": 800,
+        "y": 100
+      },
       "data": {
         "kind": "output",
+        "label": "Pipeline Outputs",
         "ports": [
           {
             "id": "result",
@@ -83,48 +91,7 @@
             "required": true
           }
         ]
-      },
-      "position": {
-        "x": 800,
-        "y": 100
       }
-    }
-  ],
-  "edges": [
-    {
-      "id": "e1",
-      "source": "n_inputs",
-      "sourceHandle": "a",
-      "target": "n_sum",
-      "targetHandle": "a"
-    },
-    {
-      "id": "e2",
-      "source": "n_inputs",
-      "sourceHandle": "b",
-      "target": "n_sum",
-      "targetHandle": "b"
-    },
-    {
-      "id": "e3",
-      "source": "n_sum",
-      "sourceHandle": "result",
-      "target": "n_product",
-      "targetHandle": "a"
-    },
-    {
-      "id": "e4",
-      "source": "n_inputs",
-      "sourceHandle": "c",
-      "target": "n_product",
-      "targetHandle": "b"
-    },
-    {
-      "id": "e5",
-      "source": "n_product",
-      "sourceHandle": "result",
-      "target": "n_outputs",
-      "targetHandle": "result"
     }
   ]
 }
