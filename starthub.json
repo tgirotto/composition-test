@@ -92,39 +92,6 @@
         "label": "Output Node"
       },
       "events": {}
-    },
-    {
-      "id": "6de7f2cb-842e-46d5-b280-02dbbdc05830",
-      "type": "multi",
-      "dimensions": {
-        "width": 242,
-        "height": 122
-      },
-      "computedPosition": {
-        "x": 184.796875,
-        "y": 276,
-        "z": 0
-      },
-      "handleBounds": {
-        "source": null,
-        "target": null
-      },
-      "selected": false,
-      "dragging": false,
-      "resizing": false,
-      "initialized": false,
-      "isParent": false,
-      "position": {
-        "x": 184.796875,
-        "y": 276
-      },
-      "data": {
-        "nodeId": "6de7f2cb-842e-46d5-b280-02dbbdc05830",
-        "label": "Composite action",
-        "usedActionId": "54e50bf0-1c4a-40e6-ba37-19dc3b9d0de6",
-        "ports": []
-      },
-      "events": {}
     }
   ],
   "edges": []
