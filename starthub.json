@@ -5,7 +5,7 @@
       "type": "io",
       "dimensions": {
         "width": 122,
-        "height": 134
+        "height": 158
       },
       "computedPosition": {
         "x": 80,
@@ -31,6 +31,16 @@
             "position": "right",
             "x": 127,
             "y": 71,
+            "width": 8,
+            "height": 8
+          },
+          {
+            "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+            "type": "source",
+            "nodeId": "n_inputs",
+            "position": "right",
+            "x": 127,
+            "y": 95,
             "width": 8,
             "height": 8
           }
@@ -61,6 +71,12 @@
             "type": "number",
             "required": true,
             "default": 2
+          },
+          {
+            "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+            "name": "Port 3",
+            "type": "string",
+            "required": false
           }
         ]
       },
@@ -74,8 +90,8 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 292,
-        "y": 42,
+        "x": 301,
+        "y": 35,
         "z": 0
       },
       "handleBounds": {
@@ -120,8 +136,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 292,
-        "y": 42
+        "x": 301,
+        "y": 35
       },
       "data": {
         "label": "Add Numbers",
@@ -145,9 +161,9 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 564,
-        "y": 180,
-        "z": 1000
+        "x": 566,
+        "y": 217,
+        "z": 0
       },
       "handleBounds": {
         "source": [
@@ -185,14 +201,14 @@
           }
         ]
       },
-      "selected": true,
+      "selected": false,
       "dragging": false,
       "resizing": false,
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 564,
-        "y": 180
+        "x": 566,
+        "y": 217
       },
       "data": {
         "label": "Multiply Numbers",
@@ -274,7 +290,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 134
+          "height": 158
         },
         "computedPosition": {
           "x": 80,
@@ -300,6 +316,16 @@
               "position": "right",
               "x": 127,
               "y": 71,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 95,
               "width": 8,
               "height": 8
             }
@@ -330,6 +356,12 @@
               "type": "number",
               "required": true,
               "default": 2
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "name": "Port 3",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -343,8 +375,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 292,
-          "y": 42,
+          "x": 301,
+          "y": 35,
           "z": 0
         },
         "handleBounds": {
@@ -389,8 +421,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 292,
-          "y": 42
+          "x": 301,
+          "y": 35
         },
         "data": {
           "label": "Add Numbers",
@@ -408,8 +440,8 @@
       },
       "sourceX": 215,
       "sourceY": 151,
-      "targetX": 279,
-      "targetY": 93
+      "targetX": 288,
+      "targetY": 86
     },
     {
       "id": "vueflow__edge-n_inputsb-n_sumb",
@@ -426,7 +458,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 134
+          "height": 158
         },
         "computedPosition": {
           "x": 80,
@@ -452,6 +484,16 @@
               "position": "right",
               "x": 127,
               "y": 71,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 95,
               "width": 8,
               "height": 8
             }
@@ -482,6 +524,12 @@
               "type": "number",
               "required": true,
               "default": 2
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "name": "Port 3",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -495,8 +543,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 292,
-          "y": 42,
+          "x": 301,
+          "y": 35,
           "z": 0
         },
         "handleBounds": {
@@ -541,8 +589,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 292,
-          "y": 42
+          "x": 301,
+          "y": 35
         },
         "data": {
           "label": "Add Numbers",
@@ -560,8 +608,8 @@
       },
       "sourceX": 215,
       "sourceY": 175,
-      "targetX": 279,
-      "targetY": 117
+      "targetX": 288,
+      "targetY": 110
     },
     {
       "id": "vueflow__edge-n_sumresult-n_multiplya",
@@ -581,8 +629,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 292,
-          "y": 42,
+          "x": 301,
+          "y": 35,
           "z": 0
         },
         "handleBounds": {
@@ -627,8 +675,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 292,
-          "y": 42
+          "x": 301,
+          "y": 35
         },
         "data": {
           "label": "Add Numbers",
@@ -652,9 +700,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 564,
-          "y": 180,
-          "z": 1000
+          "x": 566,
+          "y": 217,
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -692,14 +740,14 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 564,
-          "y": 180
+          "x": 566,
+          "y": 217
         },
         "data": {
           "label": "Multiply Numbers",
@@ -715,10 +763,10 @@
         },
         "events": {}
       },
-      "sourceX": 547,
-      "sourceY": 93,
-      "targetX": 551,
-      "targetY": 231
+      "sourceX": 556,
+      "sourceY": 86,
+      "targetX": 553,
+      "targetY": 268
     },
     {
       "id": "vueflow__edge-n_multiplyresult-n_outputsresult",
@@ -738,9 +786,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 564,
-          "y": 180,
-          "z": 1000
+          "x": 566,
+          "y": 217,
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -778,14 +826,14 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 564,
-          "y": 180
+          "x": 566,
+          "y": 217
         },
         "data": {
           "label": "Multiply Numbers",
@@ -850,17 +898,17 @@
         },
         "events": {}
       },
-      "sourceX": 819,
-      "sourceY": 231,
+      "sourceX": 821,
+      "sourceY": 268,
       "targetX": 840,
       "targetY": 173
     },
     {
-      "id": "vueflow__edge-n_inputsb-n_multiplyb",
+      "id": "vueflow__edge-n_inputs0c8828e0-29ac-450c-b463-0df2aab77376-n_multiplyb",
       "type": "default",
       "source": "n_inputs",
       "target": "n_multiply",
-      "sourceHandle": "b",
+      "sourceHandle": "0c8828e0-29ac-450c-b463-0df2aab77376",
       "targetHandle": "b",
       "data": {},
       "events": {},
@@ -870,7 +918,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 134
+          "height": 158
         },
         "computedPosition": {
           "x": 80,
@@ -896,6 +944,16 @@
               "position": "right",
               "x": 127,
               "y": 71,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 95,
               "width": 8,
               "height": 8
             }
@@ -926,6 +984,12 @@
               "type": "number",
               "required": true,
               "default": 2
+            },
+            {
+              "id": "0c8828e0-29ac-450c-b463-0df2aab77376",
+              "name": "Port 3",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -939,9 +1003,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 564,
-          "y": 180,
-          "z": 1000
+          "x": 566,
+          "y": 217,
+          "z": 0
         },
         "handleBounds": {
           "source": [
@@ -979,14 +1043,14 @@
             }
           ]
         },
-        "selected": true,
+        "selected": false,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 564,
-          "y": 180
+          "x": 566,
+          "y": 217
         },
         "data": {
           "label": "Multiply Numbers",
@@ -1003,9 +1067,9 @@
         "events": {}
       },
       "sourceX": 215,
-      "sourceY": 175,
-      "targetX": 551,
-      "targetY": 255
+      "sourceY": 199,
+      "targetX": 553,
+      "targetY": 292
     }
   ]
 }
