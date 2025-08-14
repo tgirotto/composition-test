@@ -1,11 +1,4 @@
 {
-  "artifacts": {
-    "starthub/add@0.0.1": {
-      "entry": "add.wasm",
-      "js": "https://api.starthub.so/storage/v1/object/public/wasm/starthub/add/0.0.1/add.js",
-      "wasm": "https://api.starthub.so/storage/v1/object/public/wasm/starthub/add/0.0.1/add.wasm"
-    }
-  },
   "nodes": [
     {
       "id": "n_inputs",
@@ -81,8 +74,8 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 389,
-        "y": 63,
+        "x": 429.2365642469715,
+        "y": 16.657072394555435,
         "z": 1000
       },
       "handleBounds": {
@@ -127,8 +120,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 389,
-        "y": 63
+        "x": 429.2365642469715,
+        "y": 16.657072394555435
       },
       "data": {
         "label": "Add Numbers",
@@ -152,8 +145,8 @@
         "height": 110
       },
       "computedPosition": {
-        "x": 853,
-        "y": 122,
+        "x": 810.2874285269199,
+        "y": 87.46643157495642,
         "z": 0
       },
       "handleBounds": {
@@ -177,8 +170,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 853,
-        "y": 122
+        "x": 810.2874285269199,
+        "y": 87.46643157495642
       },
       "data": {
         "direction": "output",
@@ -279,8 +272,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 389,
-          "y": 63,
+          "x": 429.2365642469715,
+          "y": 16.657072394555435,
           "z": 1000
         },
         "handleBounds": {
@@ -325,8 +318,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 389,
-          "y": 63
+          "x": 429.2365642469715,
+          "y": 16.657072394555435
         },
         "data": {
           "label": "Add Numbers",
@@ -344,8 +337,8 @@
       },
       "sourceX": 215,
       "sourceY": 151,
-      "targetX": 376,
-      "targetY": 114
+      "targetX": 416.2365642469715,
+      "targetY": 67.65707239455543
     },
     {
       "id": "vueflow__edge-n_inputsb-n_sumb",
@@ -431,8 +424,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 389,
-          "y": 63,
+          "x": 429.2365642469715,
+          "y": 16.657072394555435,
           "z": 1000
         },
         "handleBounds": {
@@ -477,8 +470,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 389,
-          "y": 63
+          "x": 429.2365642469715,
+          "y": 16.657072394555435
         },
         "data": {
           "label": "Add Numbers",
@@ -496,8 +489,8 @@
       },
       "sourceX": 215,
       "sourceY": 175,
-      "targetX": 376,
-      "targetY": 138
+      "targetX": 416.2365642469715,
+      "targetY": 91.65707239455543
     },
     {
       "id": "vueflow__edge-n_sumresult-n_outputsresult",
@@ -517,8 +510,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 389,
-          "y": 63,
+          "x": 429.2365642469715,
+          "y": 16.657072394555435,
           "z": 1000
         },
         "handleBounds": {
@@ -563,8 +556,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 389,
-          "y": 63
+          "x": 429.2365642469715,
+          "y": 16.657072394555435
         },
         "data": {
           "label": "Add Numbers",
@@ -588,8 +581,8 @@
           "height": 110
         },
         "computedPosition": {
-          "x": 853,
-          "y": 122,
+          "x": 810.2874285269199,
+          "y": 87.46643157495642,
           "z": 0
         },
         "handleBounds": {
@@ -613,8 +606,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 853,
-          "y": 122
+          "x": 810.2874285269199,
+          "y": 87.46643157495642
         },
         "data": {
           "direction": "output",
@@ -629,10 +622,10 @@
         },
         "events": {}
       },
-      "sourceX": 644,
-      "sourceY": 114,
-      "targetX": 840,
-      "targetY": 173
+      "sourceX": 684.2365642469715,
+      "sourceY": 67.65707239455543,
+      "targetX": 797.2874285269199,
+      "targetY": 138.4664315749564
     }
   ]
 }
