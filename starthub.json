@@ -3,6 +3,35 @@
     {
       "id": "n_inputs",
       "type": "input",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 80,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "n_inputs",
+            "position": "bottom",
+            "x": 71,
+            "y": 31,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
       "position": {
         "x": 80,
         "y": 100
@@ -30,11 +59,52 @@
             "default": 3
           }
         ]
-      }
+      },
+      "events": {}
     },
     {
       "id": "n_sum",
       "type": "action",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 320,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "n_sum",
+            "position": "bottom",
+            "x": 71,
+            "y": 31,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "n_sum",
+            "position": "top",
+            "x": 71,
+            "y": -3,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
       "position": {
         "x": 320,
         "y": 100
@@ -51,11 +121,52 @@
         "outPorts": [
           "result"
         ]
-      }
+      },
+      "events": {}
     },
     {
       "id": "n_product",
       "type": "action",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 560,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "n_product",
+            "position": "bottom",
+            "x": 71,
+            "y": 31,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "n_product",
+            "position": "top",
+            "x": 71,
+            "y": -3,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
       "position": {
         "x": 560,
         "y": 100
@@ -72,11 +183,41 @@
         "outPorts": [
           "result"
         ]
-      }
+      },
+      "events": {}
     },
     {
       "id": "n_outputs",
       "type": "output",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 800,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "n_outputs",
+            "position": "top",
+            "x": 71,
+            "y": -3,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
       "position": {
         "x": 800,
         "y": 100
@@ -91,7 +232,414 @@
             "required": true
           }
         ]
-      }
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "vueflow__edge-n_inputs-n_sum",
+      "type": "default",
+      "source": "n_inputs",
+      "target": "n_sum",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "n_inputs",
+        "type": "input",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 80,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "bottom",
+              "x": 71,
+              "y": 31,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 80,
+          "y": 100
+        },
+        "data": {
+          "kind": "input",
+          "label": "Pipeline Inputs",
+          "ports": [
+            {
+              "id": "a",
+              "type": "number",
+              "required": true,
+              "default": 1
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "required": true,
+              "default": 2
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "required": true,
+              "default": 3
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_sum",
+        "type": "action",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 320,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "n_sum",
+              "position": "bottom",
+              "x": 71,
+              "y": 31,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "n_sum",
+              "position": "top",
+              "x": 71,
+              "y": -3,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 320,
+          "y": 100
+        },
+        "data": {
+          "kind": "action",
+          "label": "Add Numbers",
+          "stepId": "sum",
+          "using": "starthub/add@0.0.1",
+          "inPorts": [
+            "a",
+            "b"
+          ],
+          "outPorts": [
+            "result"
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 155,
+      "sourceY": 139,
+      "targetX": 395,
+      "targetY": 97
+    },
+    {
+      "id": "vueflow__edge-n_sum-n_product",
+      "type": "default",
+      "source": "n_sum",
+      "target": "n_product",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "n_sum",
+        "type": "action",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 320,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "n_sum",
+              "position": "bottom",
+              "x": 71,
+              "y": 31,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "n_sum",
+              "position": "top",
+              "x": 71,
+              "y": -3,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 320,
+          "y": 100
+        },
+        "data": {
+          "kind": "action",
+          "label": "Add Numbers",
+          "stepId": "sum",
+          "using": "starthub/add@0.0.1",
+          "inPorts": [
+            "a",
+            "b"
+          ],
+          "outPorts": [
+            "result"
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_product",
+        "type": "action",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 560,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "n_product",
+              "position": "bottom",
+              "x": 71,
+              "y": 31,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "n_product",
+              "position": "top",
+              "x": 71,
+              "y": -3,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 560,
+          "y": 100
+        },
+        "data": {
+          "kind": "action",
+          "label": "Multiply Result",
+          "stepId": "product",
+          "using": "starthub/multiply@0.0.1",
+          "inPorts": [
+            "a",
+            "b"
+          ],
+          "outPorts": [
+            "result"
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 395,
+      "sourceY": 139,
+      "targetX": 635,
+      "targetY": 97
+    },
+    {
+      "id": "vueflow__edge-n_product-n_outputs",
+      "type": "default",
+      "source": "n_product",
+      "target": "n_outputs",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "n_product",
+        "type": "action",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 560,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "n_product",
+              "position": "bottom",
+              "x": 71,
+              "y": 31,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "n_product",
+              "position": "top",
+              "x": 71,
+              "y": -3,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 560,
+          "y": 100
+        },
+        "data": {
+          "kind": "action",
+          "label": "Multiply Result",
+          "stepId": "product",
+          "using": "starthub/multiply@0.0.1",
+          "inPorts": [
+            "a",
+            "b"
+          ],
+          "outPorts": [
+            "result"
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_outputs",
+        "type": "output",
+        "dimensions": {
+          "width": 150,
+          "height": 36
+        },
+        "computedPosition": {
+          "x": 800,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "n_outputs",
+              "position": "top",
+              "x": 71,
+              "y": -3,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 800,
+          "y": 100
+        },
+        "data": {
+          "kind": "output",
+          "label": "Pipeline Outputs",
+          "ports": [
+            {
+              "id": "result",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 635,
+      "sourceY": 139,
+      "targetX": 875,
+      "targetY": 97
     }
   ]
 }
