@@ -1,131 +1,130 @@
 {
   "nodes": [
     {
-      "id": "1",
+      "id": "n_inputs",
       "type": "input",
-      "dimensions": {
-        "width": 150,
-        "height": 36
-      },
-      "computedPosition": {
-        "x": 100,
-        "y": 100,
-        "z": 0
-      },
-      "handleBounds": {
-        "source": [
-          {
-            "id": null,
-            "type": "source",
-            "nodeId": "1",
-            "position": "bottom",
-            "x": 71,
-            "y": 31,
-            "width": 8,
-            "height": 8
-          }
-        ],
-        "target": null
-      },
-      "selected": false,
-      "dragging": false,
-      "resizing": false,
-      "initialized": false,
-      "isParent": false,
-      "position": {
-        "x": 100,
-        "y": 100
-      },
       "data": {
-        "label": "Input Node"
-      },
-      "events": {}
-    },
-    {
-      "id": "2",
-      "type": "default",
-      "dimensions": {
-        "width": 150,
-        "height": 36
-      },
-      "computedPosition": {
-        "x": 300,
-        "y": 100,
-        "z": 0
-      },
-      "handleBounds": {
-        "source": [
+        "kind": "input",
+        "ports": [
           {
-            "id": null,
-            "type": "source",
-            "nodeId": "2",
-            "position": "bottom",
-            "x": 71,
-            "y": 31,
-            "width": 8,
-            "height": 8
-          }
-        ],
-        "target": [
+            "id": "a",
+            "type": "number",
+            "required": true,
+            "default": 1
+          },
           {
-            "id": null,
-            "type": "target",
-            "nodeId": "2",
-            "position": "top",
-            "x": 71,
-            "y": -3,
-            "width": 8,
-            "height": 8
+            "id": "b",
+            "type": "number",
+            "required": true,
+            "default": 2
+          },
+          {
+            "id": "c",
+            "type": "number",
+            "required": true,
+            "default": 3
           }
         ]
       },
-      "selected": false,
-      "dragging": false,
-      "resizing": false,
-      "initialized": false,
-      "isParent": false,
       "position": {
-        "x": 300,
+        "x": 80,
         "y": 100
-      },
-      "data": {
-        "label": "Output Node"
-      },
-      "events": {}
+      }
     },
     {
-      "id": "a12ed5e9-81c5-4c73-808a-178a87c93989",
-      "type": "multi",
-      "dimensions": {
-        "width": 242,
-        "height": 122
-      },
-      "computedPosition": {
-        "x": 162,
-        "y": 259,
-        "z": 0
-      },
-      "handleBounds": {
-        "source": null,
-        "target": null
-      },
-      "selected": false,
-      "dragging": false,
-      "resizing": false,
-      "initialized": false,
-      "isParent": false,
-      "position": {
-        "x": 162,
-        "y": 259
-      },
+      "id": "n_sum",
+      "type": "action",
       "data": {
-        "nodeId": "a12ed5e9-81c5-4c73-808a-178a87c93989",
-        "label": "multiply",
-        "usedActionId": "3333055f-1cd5-46e8-96f9-9782b31cc624",
-        "ports": []
+        "kind": "action",
+        "stepId": "sum",
+        "using": "starthub/add@0.0.1",
+        "inPorts": [
+          "a",
+          "b"
+        ],
+        "outPorts": [
+          "result"
+        ]
       },
-      "events": {}
+      "position": {
+        "x": 320,
+        "y": 100
+      }
+    },
+    {
+      "id": "n_product",
+      "type": "action",
+      "data": {
+        "kind": "action",
+        "stepId": "product",
+        "using": "starthub/multiply@0.0.1",
+        "inPorts": [
+          "a",
+          "b"
+        ],
+        "outPorts": [
+          "result"
+        ]
+      },
+      "position": {
+        "x": 560,
+        "y": 100
+      }
+    },
+    {
+      "id": "n_outputs",
+      "type": "output",
+      "data": {
+        "kind": "output",
+        "ports": [
+          {
+            "id": "result",
+            "type": "number",
+            "required": true
+          }
+        ]
+      },
+      "position": {
+        "x": 800,
+        "y": 100
+      }
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "e1",
+      "source": "n_inputs",
+      "sourceHandle": "a",
+      "target": "n_sum",
+      "targetHandle": "a"
+    },
+    {
+      "id": "e2",
+      "source": "n_inputs",
+      "sourceHandle": "b",
+      "target": "n_sum",
+      "targetHandle": "b"
+    },
+    {
+      "id": "e3",
+      "source": "n_sum",
+      "sourceHandle": "result",
+      "target": "n_product",
+      "targetHandle": "a"
+    },
+    {
+      "id": "e4",
+      "source": "n_inputs",
+      "sourceHandle": "c",
+      "target": "n_product",
+      "targetHandle": "b"
+    },
+    {
+      "id": "e5",
+      "source": "n_product",
+      "sourceHandle": "result",
+      "target": "n_outputs",
+      "targetHandle": "result"
+    }
+  ]
 }
