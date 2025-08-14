@@ -92,6 +92,39 @@
         "label": "Output Node"
       },
       "events": {}
+    },
+    {
+      "id": "a12ed5e9-81c5-4c73-808a-178a87c93989",
+      "type": "multi",
+      "dimensions": {
+        "width": 242,
+        "height": 122
+      },
+      "computedPosition": {
+        "x": 162,
+        "y": 259,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 162,
+        "y": 259
+      },
+      "data": {
+        "nodeId": "a12ed5e9-81c5-4c73-808a-178a87c93989",
+        "label": "multiply",
+        "usedActionId": "3333055f-1cd5-46e8-96f9-9782b31cc624",
+        "ports": []
+      },
+      "events": {}
     }
   ],
   "edges": []
