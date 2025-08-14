@@ -5,7 +5,7 @@
       "type": "io",
       "dimensions": {
         "width": 122,
-        "height": 206
+        "height": 134
       },
       "computedPosition": {
         "x": 80,
@@ -31,36 +31,6 @@
             "position": "right",
             "x": 127,
             "y": 71,
-            "width": 8,
-            "height": 8
-          },
-          {
-            "id": "c",
-            "type": "source",
-            "nodeId": "n_inputs",
-            "position": "right",
-            "x": 127,
-            "y": 95,
-            "width": 8,
-            "height": 8
-          },
-          {
-            "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-            "type": "source",
-            "nodeId": "n_inputs",
-            "position": "right",
-            "x": 127,
-            "y": 119,
-            "width": 8,
-            "height": 8
-          },
-          {
-            "id": "93289a41-1329-4519-ae80-945295814e9e",
-            "type": "source",
-            "nodeId": "n_inputs",
-            "position": "right",
-            "x": 127,
-            "y": 143,
             "width": 8,
             "height": 8
           }
@@ -91,24 +61,6 @@
             "type": "number",
             "required": true,
             "default": 2
-          },
-          {
-            "id": "c",
-            "type": "number",
-            "required": true,
-            "default": 3
-          },
-          {
-            "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-            "name": "Port 4",
-            "type": "string",
-            "required": false
-          },
-          {
-            "id": "93289a41-1329-4519-ae80-945295814e9e",
-            "name": "Port 5",
-            "type": "string",
-            "required": false
           }
         ]
       },
@@ -124,7 +76,7 @@
       "computedPosition": {
         "x": 301,
         "y": 57,
-        "z": 0
+        "z": 1000
       },
       "handleBounds": {
         "source": [
@@ -162,7 +114,7 @@
           }
         ]
       },
-      "selected": false,
+      "selected": true,
       "dragging": false,
       "resizing": false,
       "initialized": false,
@@ -186,86 +138,15 @@
       "events": {}
     },
     {
-      "id": "n_product",
-      "type": "action",
-      "dimensions": {
-        "width": 242,
-        "height": 122
-      },
-      "computedPosition": {
-        "x": 518,
-        "y": 306,
-        "z": 1000
-      },
-      "handleBounds": {
-        "source": [
-          {
-            "id": "result",
-            "type": "source",
-            "nodeId": "n_product",
-            "position": "right",
-            "x": 247,
-            "y": 47,
-            "width": 8,
-            "height": 8
-          }
-        ],
-        "target": [
-          {
-            "id": "a",
-            "type": "target",
-            "nodeId": "n_product",
-            "position": "left",
-            "x": -13,
-            "y": 47,
-            "width": 8,
-            "height": 8
-          },
-          {
-            "id": "b",
-            "type": "target",
-            "nodeId": "n_product",
-            "position": "left",
-            "x": -13,
-            "y": 71,
-            "width": 8,
-            "height": 8
-          }
-        ]
-      },
-      "selected": true,
-      "dragging": false,
-      "resizing": false,
-      "initialized": false,
-      "isParent": false,
-      "position": {
-        "x": 518,
-        "y": 306
-      },
-      "data": {
-        "label": "Multiply Result",
-        "stepId": "product",
-        "using": "starthub/multiply@0.0.1",
-        "inPorts": [
-          "a",
-          "b"
-        ],
-        "outPorts": [
-          "result"
-        ]
-      },
-      "events": {}
-    },
-    {
       "id": "n_outputs",
       "type": "io",
       "dimensions": {
         "width": 122,
-        "height": 134
+        "height": 110
       },
       "computedPosition": {
-        "x": 859,
-        "y": 124,
+        "x": 609,
+        "y": 78,
         "z": 0
       },
       "handleBounds": {
@@ -280,16 +161,6 @@
             "y": 47,
             "width": 8,
             "height": 8
-          },
-          {
-            "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-            "type": "target",
-            "nodeId": "n_outputs",
-            "position": "left",
-            "x": -13,
-            "y": 71,
-            "width": 8,
-            "height": 8
           }
         ]
       },
@@ -299,8 +170,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 859,
-        "y": 124
+        "x": 609,
+        "y": 78
       },
       "data": {
         "direction": "output",
@@ -310,12 +181,6 @@
             "id": "result",
             "type": "number",
             "required": true
-          },
-          {
-            "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-            "name": "Port 2",
-            "type": "string",
-            "required": false
           }
         ]
       },
@@ -338,7 +203,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 206
+          "height": 134
         },
         "computedPosition": {
           "x": 80,
@@ -364,36 +229,6 @@
               "position": "right",
               "x": 127,
               "y": 71,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "c",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 95,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 119,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 143,
               "width": 8,
               "height": 8
             }
@@ -424,24 +259,6 @@
               "type": "number",
               "required": true,
               "default": 2
-            },
-            {
-              "id": "c",
-              "type": "number",
-              "required": true,
-              "default": 3
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "name": "Port 4",
-              "type": "string",
-              "required": false
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "name": "Port 5",
-              "type": "string",
-              "required": false
             }
           ]
         },
@@ -457,7 +274,7 @@
         "computedPosition": {
           "x": 301,
           "y": 57,
-          "z": 0
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -495,7 +312,7 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -524,130 +341,16 @@
       "targetY": 108
     },
     {
-      "id": "e2",
+      "id": "vueflow__edge-n_sumresult-n_outputsresult",
       "type": "default",
-      "source": "n_inputs",
-      "target": "n_sum",
-      "sourceHandle": "b",
-      "targetHandle": "b",
+      "source": "n_sum",
+      "target": "n_outputs",
+      "sourceHandle": "result",
+      "targetHandle": "result",
       "data": {},
       "events": {},
       "label": "",
       "sourceNode": {
-        "id": "n_inputs",
-        "type": "io",
-        "dimensions": {
-          "width": 122,
-          "height": 206
-        },
-        "computedPosition": {
-          "x": 80,
-          "y": 100,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "a",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "c",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 95,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 119,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 143,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": null
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 80,
-          "y": 100
-        },
-        "data": {
-          "direction": "input",
-          "label": "Pipeline Inputs",
-          "ports": [
-            {
-              "id": "a",
-              "type": "number",
-              "required": true,
-              "default": 1
-            },
-            {
-              "id": "b",
-              "type": "number",
-              "required": true,
-              "default": 2
-            },
-            {
-              "id": "c",
-              "type": "number",
-              "required": true,
-              "default": 3
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "name": "Port 4",
-              "type": "string",
-              "required": false
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "name": "Port 5",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        "events": {}
-      },
-      "targetNode": {
         "id": "n_sum",
         "type": "action",
         "dimensions": {
@@ -657,7 +360,7 @@
         "computedPosition": {
           "x": 301,
           "y": 57,
-          "z": 0
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -695,7 +398,208 @@
             }
           ]
         },
+        "selected": true,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 301,
+          "y": 57
+        },
+        "data": {
+          "label": "Add Numbers",
+          "stepId": "sum",
+          "using": "starthub/add@0.0.1",
+          "inPorts": [
+            "a",
+            "b"
+          ],
+          "outPorts": [
+            "result"
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_outputs",
+        "type": "io",
+        "dimensions": {
+          "width": 122,
+          "height": 110
+        },
+        "computedPosition": {
+          "x": 609,
+          "y": 78,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": "result",
+              "type": "target",
+              "nodeId": "n_outputs",
+              "position": "left",
+              "x": -13,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
         "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 609,
+          "y": 78
+        },
+        "data": {
+          "direction": "output",
+          "label": "Pipeline Outputs",
+          "ports": [
+            {
+              "id": "result",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 556,
+      "sourceY": 108,
+      "targetX": 596,
+      "targetY": 129
+    },
+    {
+      "id": "vueflow__edge-n_inputsb-n_sumb",
+      "type": "default",
+      "source": "n_inputs",
+      "target": "n_sum",
+      "sourceHandle": "b",
+      "targetHandle": "b",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "n_inputs",
+        "type": "io",
+        "dimensions": {
+          "width": 122,
+          "height": 134
+        },
+        "computedPosition": {
+          "x": 80,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "a",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "b",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 71,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 80,
+          "y": 100
+        },
+        "data": {
+          "direction": "input",
+          "label": "Pipeline Inputs",
+          "ports": [
+            {
+              "id": "a",
+              "type": "number",
+              "required": true,
+              "default": 1
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "required": true,
+              "default": 2
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_sum",
+        "type": "action",
+        "dimensions": {
+          "width": 242,
+          "height": 122
+        },
+        "computedPosition": {
+          "x": 301,
+          "y": 57,
+          "z": 1000
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "result",
+              "type": "source",
+              "nodeId": "n_sum",
+              "position": "right",
+              "x": 247,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": [
+            {
+              "id": "a",
+              "type": "target",
+              "nodeId": "n_sum",
+              "position": "left",
+              "x": -13,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "b",
+              "type": "target",
+              "nodeId": "n_sum",
+              "position": "left",
+              "x": -13,
+              "y": 71,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
@@ -722,708 +626,6 @@
       "sourceY": 175,
       "targetX": 288,
       "targetY": 132
-    },
-    {
-      "id": "e3",
-      "type": "default",
-      "source": "n_sum",
-      "target": "n_product",
-      "sourceHandle": "result",
-      "targetHandle": "a",
-      "data": {},
-      "events": {},
-      "label": "",
-      "sourceNode": {
-        "id": "n_sum",
-        "type": "action",
-        "dimensions": {
-          "width": 242,
-          "height": 122
-        },
-        "computedPosition": {
-          "x": 301,
-          "y": 57,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "result",
-              "type": "source",
-              "nodeId": "n_sum",
-              "position": "right",
-              "x": 247,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": [
-            {
-              "id": "a",
-              "type": "target",
-              "nodeId": "n_sum",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "target",
-              "nodeId": "n_sum",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 301,
-          "y": 57
-        },
-        "data": {
-          "label": "Add Numbers",
-          "stepId": "sum",
-          "using": "starthub/add@0.0.1",
-          "inPorts": [
-            "a",
-            "b"
-          ],
-          "outPorts": [
-            "result"
-          ]
-        },
-        "events": {}
-      },
-      "targetNode": {
-        "id": "n_product",
-        "type": "action",
-        "dimensions": {
-          "width": 242,
-          "height": 122
-        },
-        "computedPosition": {
-          "x": 518,
-          "y": 306,
-          "z": 1000
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "result",
-              "type": "source",
-              "nodeId": "n_product",
-              "position": "right",
-              "x": 247,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": [
-            {
-              "id": "a",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": true,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 518,
-          "y": 306
-        },
-        "data": {
-          "label": "Multiply Result",
-          "stepId": "product",
-          "using": "starthub/multiply@0.0.1",
-          "inPorts": [
-            "a",
-            "b"
-          ],
-          "outPorts": [
-            "result"
-          ]
-        },
-        "events": {}
-      },
-      "sourceX": 556,
-      "sourceY": 108,
-      "targetX": 505,
-      "targetY": 357
-    },
-    {
-      "id": "e5",
-      "type": "default",
-      "source": "n_product",
-      "target": "n_outputs",
-      "sourceHandle": "result",
-      "targetHandle": "result",
-      "data": {},
-      "events": {},
-      "label": "",
-      "sourceNode": {
-        "id": "n_product",
-        "type": "action",
-        "dimensions": {
-          "width": 242,
-          "height": 122
-        },
-        "computedPosition": {
-          "x": 518,
-          "y": 306,
-          "z": 1000
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "result",
-              "type": "source",
-              "nodeId": "n_product",
-              "position": "right",
-              "x": 247,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": [
-            {
-              "id": "a",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": true,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 518,
-          "y": 306
-        },
-        "data": {
-          "label": "Multiply Result",
-          "stepId": "product",
-          "using": "starthub/multiply@0.0.1",
-          "inPorts": [
-            "a",
-            "b"
-          ],
-          "outPorts": [
-            "result"
-          ]
-        },
-        "events": {}
-      },
-      "targetNode": {
-        "id": "n_outputs",
-        "type": "io",
-        "dimensions": {
-          "width": 122,
-          "height": 134
-        },
-        "computedPosition": {
-          "x": 859,
-          "y": 124,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": null,
-          "target": [
-            {
-              "id": "result",
-              "type": "target",
-              "nodeId": "n_outputs",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-              "type": "target",
-              "nodeId": "n_outputs",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 859,
-          "y": 124
-        },
-        "data": {
-          "direction": "output",
-          "label": "Pipeline Outputs",
-          "ports": [
-            {
-              "id": "result",
-              "type": "number",
-              "required": true
-            },
-            {
-              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-              "name": "Port 2",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        "events": {}
-      },
-      "sourceX": 773,
-      "sourceY": 357,
-      "targetX": 846,
-      "targetY": 175
-    },
-    {
-      "id": "vueflow__edge-n_inputsa22dd419-2188-49a8-9888-fe278bf9ed67-n_productb",
-      "type": "default",
-      "source": "n_inputs",
-      "target": "n_product",
-      "sourceHandle": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-      "targetHandle": "b",
-      "data": {},
-      "events": {},
-      "label": "",
-      "sourceNode": {
-        "id": "n_inputs",
-        "type": "io",
-        "dimensions": {
-          "width": 122,
-          "height": 206
-        },
-        "computedPosition": {
-          "x": 80,
-          "y": 100,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "a",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "c",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 95,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 119,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 143,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": null
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 80,
-          "y": 100
-        },
-        "data": {
-          "direction": "input",
-          "label": "Pipeline Inputs",
-          "ports": [
-            {
-              "id": "a",
-              "type": "number",
-              "required": true,
-              "default": 1
-            },
-            {
-              "id": "b",
-              "type": "number",
-              "required": true,
-              "default": 2
-            },
-            {
-              "id": "c",
-              "type": "number",
-              "required": true,
-              "default": 3
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "name": "Port 4",
-              "type": "string",
-              "required": false
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "name": "Port 5",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        "events": {}
-      },
-      "targetNode": {
-        "id": "n_product",
-        "type": "action",
-        "dimensions": {
-          "width": 242,
-          "height": 122
-        },
-        "computedPosition": {
-          "x": 518,
-          "y": 306,
-          "z": 1000
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "result",
-              "type": "source",
-              "nodeId": "n_product",
-              "position": "right",
-              "x": 247,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": [
-            {
-              "id": "a",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "target",
-              "nodeId": "n_product",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": true,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 518,
-          "y": 306
-        },
-        "data": {
-          "label": "Multiply Result",
-          "stepId": "product",
-          "using": "starthub/multiply@0.0.1",
-          "inPorts": [
-            "a",
-            "b"
-          ],
-          "outPorts": [
-            "result"
-          ]
-        },
-        "events": {}
-      },
-      "sourceX": 215,
-      "sourceY": 223,
-      "targetX": 505,
-      "targetY": 381
-    },
-    {
-      "id": "vueflow__edge-n_inputs93289a41-1329-4519-ae80-945295814e9e-n_outputsbbb9c156-7e75-4e00-84ff-2af2d4201e65",
-      "type": "default",
-      "source": "n_inputs",
-      "target": "n_outputs",
-      "sourceHandle": "93289a41-1329-4519-ae80-945295814e9e",
-      "targetHandle": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-      "data": {},
-      "events": {},
-      "label": "",
-      "sourceNode": {
-        "id": "n_inputs",
-        "type": "io",
-        "dimensions": {
-          "width": 122,
-          "height": 206
-        },
-        "computedPosition": {
-          "x": 80,
-          "y": 100,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": [
-            {
-              "id": "a",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "b",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "c",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 95,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 119,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "type": "source",
-              "nodeId": "n_inputs",
-              "position": "right",
-              "x": 127,
-              "y": 143,
-              "width": 8,
-              "height": 8
-            }
-          ],
-          "target": null
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 80,
-          "y": 100
-        },
-        "data": {
-          "direction": "input",
-          "label": "Pipeline Inputs",
-          "ports": [
-            {
-              "id": "a",
-              "type": "number",
-              "required": true,
-              "default": 1
-            },
-            {
-              "id": "b",
-              "type": "number",
-              "required": true,
-              "default": 2
-            },
-            {
-              "id": "c",
-              "type": "number",
-              "required": true,
-              "default": 3
-            },
-            {
-              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
-              "name": "Port 4",
-              "type": "string",
-              "required": false
-            },
-            {
-              "id": "93289a41-1329-4519-ae80-945295814e9e",
-              "name": "Port 5",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        "events": {}
-      },
-      "targetNode": {
-        "id": "n_outputs",
-        "type": "io",
-        "dimensions": {
-          "width": 122,
-          "height": 134
-        },
-        "computedPosition": {
-          "x": 859,
-          "y": 124,
-          "z": 0
-        },
-        "handleBounds": {
-          "source": null,
-          "target": [
-            {
-              "id": "result",
-              "type": "target",
-              "nodeId": "n_outputs",
-              "position": "left",
-              "x": -13,
-              "y": 47,
-              "width": 8,
-              "height": 8
-            },
-            {
-              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-              "type": "target",
-              "nodeId": "n_outputs",
-              "position": "left",
-              "x": -13,
-              "y": 71,
-              "width": 8,
-              "height": 8
-            }
-          ]
-        },
-        "selected": false,
-        "dragging": false,
-        "resizing": false,
-        "initialized": false,
-        "isParent": false,
-        "position": {
-          "x": 859,
-          "y": 124
-        },
-        "data": {
-          "direction": "output",
-          "label": "Pipeline Outputs",
-          "ports": [
-            {
-              "id": "result",
-              "type": "number",
-              "required": true
-            },
-            {
-              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
-              "name": "Port 2",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        "events": {}
-      },
-      "sourceX": 215,
-      "sourceY": 247,
-      "targetX": 846,
-      "targetY": 199
     }
   ]
 }
