@@ -5,7 +5,7 @@
       "type": "io",
       "dimensions": {
         "width": 122,
-        "height": 182
+        "height": 206
       },
       "computedPosition": {
         "x": 80,
@@ -53,6 +53,16 @@
             "y": 119,
             "width": 8,
             "height": 8
+          },
+          {
+            "id": "93289a41-1329-4519-ae80-945295814e9e",
+            "type": "source",
+            "nodeId": "n_inputs",
+            "position": "right",
+            "x": 127,
+            "y": 143,
+            "width": 8,
+            "height": 8
           }
         ],
         "target": null
@@ -93,6 +103,12 @@
             "name": "Port 4",
             "type": "string",
             "required": false
+          },
+          {
+            "id": "93289a41-1329-4519-ae80-945295814e9e",
+            "name": "Port 5",
+            "type": "string",
+            "required": false
           }
         ]
       },
@@ -106,8 +122,8 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 337,
-        "y": 362,
+        "x": 301,
+        "y": 57,
         "z": 0
       },
       "handleBounds": {
@@ -152,8 +168,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 337,
-        "y": 362
+        "x": 301,
+        "y": 57
       },
       "data": {
         "label": "Add Numbers",
@@ -177,9 +193,9 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 428,
-        "y": 90,
-        "z": 0
+        "x": 518,
+        "y": 306,
+        "z": 1000
       },
       "handleBounds": {
         "source": [
@@ -217,14 +233,14 @@
           }
         ]
       },
-      "selected": false,
+      "selected": true,
       "dragging": false,
       "resizing": false,
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 428,
-        "y": 90
+        "x": 518,
+        "y": 306
       },
       "data": {
         "label": "Multiply Result",
@@ -245,11 +261,11 @@
       "type": "io",
       "dimensions": {
         "width": 122,
-        "height": 110
+        "height": 134
       },
       "computedPosition": {
-        "x": 800,
-        "y": 100,
+        "x": 859,
+        "y": 124,
         "z": 0
       },
       "handleBounds": {
@@ -264,6 +280,16 @@
             "y": 47,
             "width": 8,
             "height": 8
+          },
+          {
+            "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+            "type": "target",
+            "nodeId": "n_outputs",
+            "position": "left",
+            "x": -13,
+            "y": 71,
+            "width": 8,
+            "height": 8
           }
         ]
       },
@@ -273,8 +299,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 800,
-        "y": 100
+        "x": 859,
+        "y": 124
       },
       "data": {
         "direction": "output",
@@ -284,6 +310,12 @@
             "id": "result",
             "type": "number",
             "required": true
+          },
+          {
+            "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+            "name": "Port 2",
+            "type": "string",
+            "required": false
           }
         ]
       },
@@ -306,7 +338,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 182
+          "height": 206
         },
         "computedPosition": {
           "x": 80,
@@ -354,6 +386,16 @@
               "y": 119,
               "width": 8,
               "height": 8
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 143,
+              "width": 8,
+              "height": 8
             }
           ],
           "target": null
@@ -394,6 +436,12 @@
               "name": "Port 4",
               "type": "string",
               "required": false
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "name": "Port 5",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -407,8 +455,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 337,
-          "y": 362,
+          "x": 301,
+          "y": 57,
           "z": 0
         },
         "handleBounds": {
@@ -453,8 +501,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 337,
-          "y": 362
+          "x": 301,
+          "y": 57
         },
         "data": {
           "label": "Add Numbers",
@@ -472,8 +520,8 @@
       },
       "sourceX": 215,
       "sourceY": 151,
-      "targetX": 324,
-      "targetY": 413
+      "targetX": 288,
+      "targetY": 108
     },
     {
       "id": "e2",
@@ -490,7 +538,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 182
+          "height": 206
         },
         "computedPosition": {
           "x": 80,
@@ -538,6 +586,16 @@
               "y": 119,
               "width": 8,
               "height": 8
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 143,
+              "width": 8,
+              "height": 8
             }
           ],
           "target": null
@@ -578,6 +636,12 @@
               "name": "Port 4",
               "type": "string",
               "required": false
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "name": "Port 5",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -591,8 +655,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 337,
-          "y": 362,
+          "x": 301,
+          "y": 57,
           "z": 0
         },
         "handleBounds": {
@@ -637,8 +701,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 337,
-          "y": 362
+          "x": 301,
+          "y": 57
         },
         "data": {
           "label": "Add Numbers",
@@ -656,8 +720,8 @@
       },
       "sourceX": 215,
       "sourceY": 175,
-      "targetX": 324,
-      "targetY": 437
+      "targetX": 288,
+      "targetY": 132
     },
     {
       "id": "e3",
@@ -677,8 +741,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 337,
-          "y": 362,
+          "x": 301,
+          "y": 57,
           "z": 0
         },
         "handleBounds": {
@@ -723,8 +787,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 337,
-          "y": 362
+          "x": 301,
+          "y": 57
         },
         "data": {
           "label": "Add Numbers",
@@ -748,9 +812,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 428,
-          "y": 90,
-          "z": 0
+          "x": 518,
+          "y": 306,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -788,14 +852,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 428,
-          "y": 90
+          "x": 518,
+          "y": 306
         },
         "data": {
           "label": "Multiply Result",
@@ -811,10 +875,10 @@
         },
         "events": {}
       },
-      "sourceX": 592,
-      "sourceY": 413,
-      "targetX": 415,
-      "targetY": 141
+      "sourceX": 556,
+      "sourceY": 108,
+      "targetX": 505,
+      "targetY": 357
     },
     {
       "id": "e5",
@@ -834,9 +898,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 428,
-          "y": 90,
-          "z": 0
+          "x": 518,
+          "y": 306,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -874,14 +938,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 428,
-          "y": 90
+          "x": 518,
+          "y": 306
         },
         "data": {
           "label": "Multiply Result",
@@ -902,11 +966,11 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 110
+          "height": 134
         },
         "computedPosition": {
-          "x": 800,
-          "y": 100,
+          "x": 859,
+          "y": 124,
           "z": 0
         },
         "handleBounds": {
@@ -921,6 +985,16 @@
               "y": 47,
               "width": 8,
               "height": 8
+            },
+            {
+              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+              "type": "target",
+              "nodeId": "n_outputs",
+              "position": "left",
+              "x": -13,
+              "y": 71,
+              "width": 8,
+              "height": 8
             }
           ]
         },
@@ -930,8 +1004,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 800,
-          "y": 100
+          "x": 859,
+          "y": 124
         },
         "data": {
           "direction": "output",
@@ -941,15 +1015,21 @@
               "id": "result",
               "type": "number",
               "required": true
+            },
+            {
+              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+              "name": "Port 2",
+              "type": "string",
+              "required": false
             }
           ]
         },
         "events": {}
       },
-      "sourceX": 683,
-      "sourceY": 141,
-      "targetX": 787,
-      "targetY": 151
+      "sourceX": 773,
+      "sourceY": 357,
+      "targetX": 846,
+      "targetY": 175
     },
     {
       "id": "vueflow__edge-n_inputsa22dd419-2188-49a8-9888-fe278bf9ed67-n_productb",
@@ -966,7 +1046,7 @@
         "type": "io",
         "dimensions": {
           "width": 122,
-          "height": 182
+          "height": 206
         },
         "computedPosition": {
           "x": 80,
@@ -1014,6 +1094,16 @@
               "y": 119,
               "width": 8,
               "height": 8
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 143,
+              "width": 8,
+              "height": 8
             }
           ],
           "target": null
@@ -1054,6 +1144,12 @@
               "name": "Port 4",
               "type": "string",
               "required": false
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "name": "Port 5",
+              "type": "string",
+              "required": false
             }
           ]
         },
@@ -1067,9 +1163,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 428,
-          "y": 90,
-          "z": 0
+          "x": 518,
+          "y": 306,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -1107,14 +1203,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 428,
-          "y": 90
+          "x": 518,
+          "y": 306
         },
         "data": {
           "label": "Multiply Result",
@@ -1132,8 +1228,202 @@
       },
       "sourceX": 215,
       "sourceY": 223,
-      "targetX": 415,
-      "targetY": 165
+      "targetX": 505,
+      "targetY": 381
+    },
+    {
+      "id": "vueflow__edge-n_inputs93289a41-1329-4519-ae80-945295814e9e-n_outputsbbb9c156-7e75-4e00-84ff-2af2d4201e65",
+      "type": "default",
+      "source": "n_inputs",
+      "target": "n_outputs",
+      "sourceHandle": "93289a41-1329-4519-ae80-945295814e9e",
+      "targetHandle": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+      "data": {},
+      "events": {},
+      "label": "",
+      "sourceNode": {
+        "id": "n_inputs",
+        "type": "io",
+        "dimensions": {
+          "width": 122,
+          "height": 206
+        },
+        "computedPosition": {
+          "x": 80,
+          "y": 100,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "a",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "b",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 71,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "c",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 95,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 119,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "type": "source",
+              "nodeId": "n_inputs",
+              "position": "right",
+              "x": 127,
+              "y": 143,
+              "width": 8,
+              "height": 8
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 80,
+          "y": 100
+        },
+        "data": {
+          "direction": "input",
+          "label": "Pipeline Inputs",
+          "ports": [
+            {
+              "id": "a",
+              "type": "number",
+              "required": true,
+              "default": 1
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "required": true,
+              "default": 2
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "required": true,
+              "default": 3
+            },
+            {
+              "id": "a22dd419-2188-49a8-9888-fe278bf9ed67",
+              "name": "Port 4",
+              "type": "string",
+              "required": false
+            },
+            {
+              "id": "93289a41-1329-4519-ae80-945295814e9e",
+              "name": "Port 5",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "n_outputs",
+        "type": "io",
+        "dimensions": {
+          "width": 122,
+          "height": 134
+        },
+        "computedPosition": {
+          "x": 859,
+          "y": 124,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": "result",
+              "type": "target",
+              "nodeId": "n_outputs",
+              "position": "left",
+              "x": -13,
+              "y": 47,
+              "width": 8,
+              "height": 8
+            },
+            {
+              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+              "type": "target",
+              "nodeId": "n_outputs",
+              "position": "left",
+              "x": -13,
+              "y": 71,
+              "width": 8,
+              "height": 8
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 859,
+          "y": 124
+        },
+        "data": {
+          "direction": "output",
+          "label": "Pipeline Outputs",
+          "ports": [
+            {
+              "id": "result",
+              "type": "number",
+              "required": true
+            },
+            {
+              "id": "bbb9c156-7e75-4e00-84ff-2af2d4201e65",
+              "name": "Port 2",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        "events": {}
+      },
+      "sourceX": 215,
+      "sourceY": 247,
+      "targetX": 846,
+      "targetY": 199
     }
   ]
 }
