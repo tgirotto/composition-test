@@ -74,8 +74,8 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 301,
-        "y": 57,
+        "x": 292,
+        "y": 42,
         "z": 0
       },
       "handleBounds": {
@@ -120,8 +120,8 @@
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 301,
-        "y": 57
+        "x": 292,
+        "y": 42
       },
       "data": {
         "label": "Add Numbers",
@@ -145,9 +145,9 @@
         "height": 122
       },
       "computedPosition": {
-        "x": 572,
-        "y": 197,
-        "z": 0
+        "x": 564,
+        "y": 180,
+        "z": 1000
       },
       "handleBounds": {
         "source": [
@@ -185,14 +185,14 @@
           }
         ]
       },
-      "selected": false,
+      "selected": true,
       "dragging": false,
       "resizing": false,
       "initialized": false,
       "isParent": false,
       "position": {
-        "x": 572,
-        "y": 197
+        "x": 564,
+        "y": 180
       },
       "data": {
         "label": "Multiply Numbers",
@@ -343,8 +343,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 301,
-          "y": 57,
+          "x": 292,
+          "y": 42,
           "z": 0
         },
         "handleBounds": {
@@ -389,8 +389,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 301,
-          "y": 57
+          "x": 292,
+          "y": 42
         },
         "data": {
           "label": "Add Numbers",
@@ -408,8 +408,8 @@
       },
       "sourceX": 215,
       "sourceY": 151,
-      "targetX": 288,
-      "targetY": 108
+      "targetX": 279,
+      "targetY": 93
     },
     {
       "id": "vueflow__edge-n_inputsb-n_sumb",
@@ -495,8 +495,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 301,
-          "y": 57,
+          "x": 292,
+          "y": 42,
           "z": 0
         },
         "handleBounds": {
@@ -541,8 +541,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 301,
-          "y": 57
+          "x": 292,
+          "y": 42
         },
         "data": {
           "label": "Add Numbers",
@@ -560,8 +560,8 @@
       },
       "sourceX": 215,
       "sourceY": 175,
-      "targetX": 288,
-      "targetY": 132
+      "targetX": 279,
+      "targetY": 117
     },
     {
       "id": "vueflow__edge-n_sumresult-n_multiplya",
@@ -581,8 +581,8 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 301,
-          "y": 57,
+          "x": 292,
+          "y": 42,
           "z": 0
         },
         "handleBounds": {
@@ -627,8 +627,8 @@
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 301,
-          "y": 57
+          "x": 292,
+          "y": 42
         },
         "data": {
           "label": "Add Numbers",
@@ -652,9 +652,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 572,
-          "y": 197,
-          "z": 0
+          "x": 564,
+          "y": 180,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -692,14 +692,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 572,
-          "y": 197
+          "x": 564,
+          "y": 180
         },
         "data": {
           "label": "Multiply Numbers",
@@ -715,10 +715,10 @@
         },
         "events": {}
       },
-      "sourceX": 556,
-      "sourceY": 108,
-      "targetX": 559,
-      "targetY": 248
+      "sourceX": 547,
+      "sourceY": 93,
+      "targetX": 551,
+      "targetY": 231
     },
     {
       "id": "vueflow__edge-n_multiplyresult-n_outputsresult",
@@ -738,9 +738,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 572,
-          "y": 197,
-          "z": 0
+          "x": 564,
+          "y": 180,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -778,14 +778,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 572,
-          "y": 197
+          "x": 564,
+          "y": 180
         },
         "data": {
           "label": "Multiply Numbers",
@@ -850,8 +850,8 @@
         },
         "events": {}
       },
-      "sourceX": 827,
-      "sourceY": 248,
+      "sourceX": 819,
+      "sourceY": 231,
       "targetX": 840,
       "targetY": 173
     },
@@ -939,9 +939,9 @@
           "height": 122
         },
         "computedPosition": {
-          "x": 572,
-          "y": 197,
-          "z": 0
+          "x": 564,
+          "y": 180,
+          "z": 1000
         },
         "handleBounds": {
           "source": [
@@ -979,14 +979,14 @@
             }
           ]
         },
-        "selected": false,
+        "selected": true,
         "dragging": false,
         "resizing": false,
         "initialized": false,
         "isParent": false,
         "position": {
-          "x": 572,
-          "y": 197
+          "x": 564,
+          "y": 180
         },
         "data": {
           "label": "Multiply Numbers",
@@ -1004,8 +1004,8 @@
       },
       "sourceX": 215,
       "sourceY": 175,
-      "targetX": 559,
-      "targetY": 272
+      "targetX": 551,
+      "targetY": 255
     }
   ]
 }
