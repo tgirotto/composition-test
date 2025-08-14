@@ -1,1 +1,1 @@
-{"a":1}
+{"nodes":[{"id":"1","type":"input","position":{"x":100,"y":100},"data":{"label":"Input Node"}},{"id":"2","position":{"x":300,"y":100},"data":{"label":"Output Node"}}],"edges":[{"id":"e1-2","source":"1","target":"2","type":"default"}]}
