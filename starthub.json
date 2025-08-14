@@ -1,1 +1,98 @@
-{"nodes":[{"id":"1","type":"input","dimensions":{"width":150,"height":36},"computedPosition":{"x":100,"y":100,"z":0},"handleBounds":{"source":[{"id":null,"type":"source","nodeId":"1","position":"bottom","x":71,"y":31,"width":8,"height":8}],"target":null},"selected":false,"dragging":false,"resizing":false,"initialized":false,"isParent":false,"position":{"x":100,"y":100},"data":{"label":"Input Node"},"events":{}},{"id":"2","type":"default","dimensions":{"width":150,"height":36},"computedPosition":{"x":300,"y":100,"z":0},"handleBounds":{"source":[{"id":null,"type":"source","nodeId":"2","position":"bottom","x":71,"y":31,"width":8,"height":8}],"target":[{"id":null,"type":"target","nodeId":"2","position":"top","x":71,"y":-3,"width":8,"height":8}]},"selected":false,"dragging":false,"resizing":false,"initialized":false,"isParent":false,"position":{"x":300,"y":100},"data":{"label":"Output Node"},"events":{}}],"edges":[]}
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "input",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 100,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "1",
+            "position": "bottom",
+            "x": 71,
+            "y": 31,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "data": {
+        "label": "Input Node"
+      },
+      "events": {}
+    },
+    {
+      "id": "2",
+      "type": "default",
+      "dimensions": {
+        "width": 150,
+        "height": 36
+      },
+      "computedPosition": {
+        "x": 300,
+        "y": 100,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "2",
+            "position": "bottom",
+            "x": 71,
+            "y": 31,
+            "width": 8,
+            "height": 8
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "2",
+            "position": "top",
+            "x": 71,
+            "y": -3,
+            "width": 8,
+            "height": 8
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 300,
+        "y": 100
+      },
+      "data": {
+        "label": "Output Node"
+      },
+      "events": {}
+    }
+  ],
+  "edges": []
+}
