@@ -1,4 +1,11 @@
 {
+  "artifacts": {
+    "starthub/add@0.0.1": {
+      "entry": "add.wasm",
+      "js": "https://api.starthub.so/storage/v1/object/public/wasm/starthub/add/0.0.1/add.js",
+      "wasm": "https://api.starthub.so/storage/v1/object/public/wasm/starthub/add/0.0.1/add.wasm"
+    }
+  },
   "nodes": [
     {
       "id": "n_inputs",
